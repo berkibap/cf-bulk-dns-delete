@@ -2,12 +2,12 @@
   "name": "cf-bulk-dns-delete",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["cloudflare","dns","delete dns"],
+  "author": "Berkay Gündüz",
   "license": "ISC",
   "dependencies": {
     "cloudflare": "^2.9.1"
