@@ -12,7 +12,7 @@ After that, run
 ```console
 cd cf-bulk-dns-delete && npm i
 ```
-Copy `config.json.example` > `config.json` and put your API Token (create here)[https://dash.cloudflare.com/profile/api-tokens] and your Zone ID (can be found on your website's overview page)
+Copy `config.json.example` > `config.json` and put your API Token [create here](https://dash.cloudflare.com/profile/api-tokens) and your Zone ID (can be found on your website's overview page)
 ```json
 {
     "zoneId": "",
